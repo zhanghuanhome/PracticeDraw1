@@ -19,7 +19,7 @@ public class PageFragment extends Fragment {
         args.putInt("sampleLayoutRes", sampleLayoutRes);
         args.putInt("practiceLayoutRes", practiceLayoutRes);
         fragment.setArguments(args);
-
+        int text;
         return fragment;
     }
 
